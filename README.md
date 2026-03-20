@@ -86,13 +86,10 @@ EcoInventApp.sln
 
 ```
 EcoInvent_SDG12
-├── README.md
-├── CODE/
-│   ├── EcoInventApp.sln
-│   ├── EcoInvent.UI/
 │   ├── EcoInvent.BLL/
 │   ├── EcoInvent.DAL/
 │   ├── EcoInvent.Models/
+│   ├── EcoInvent.UI/
 │   └── EcoInventApp/
 ├── INPUT_DATA/
 │   └── inventory.db
@@ -100,6 +97,8 @@ EcoInvent_SDG12
 │   ├── SDAD_EcoInvent.pdf
 │   ├── Flowchart_CoreAlgorithm.png
 │   └── Database_Schema_ERD.png
+│   ├── EcoInventApp.sln
+├── README.md
 ```
 
 ---
