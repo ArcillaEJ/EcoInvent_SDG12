@@ -1,0 +1,22 @@
+C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.Models\bin\Debug\net10.0\EcoInvent.Models.deps.json
+C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.Models\bin\Debug\net10.0\EcoInvent.Models.dll
+C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.Models\bin\Debug\net10.0\EcoInvent.Models.pdb
+C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\EcoInvent.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\EcoInvent.Models.AssemblyInfoInputs.cache
+C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\EcoInvent.Models.AssemblyInfo.cs
+C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\EcoInvent.Models.csproj.CoreCompileInputs.cache
+C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\EcoInvent.Models.dll
+C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\refint\EcoInvent.Models.dll
+C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\EcoInvent.Models.pdb
+C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\ref\EcoInvent.Models.dll
+C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.Models\bin\Debug\net10.0\EcoInvent.Models.deps.json
+C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.Models\bin\Debug\net10.0\EcoInvent.Models.dll
+C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.Models\bin\Debug\net10.0\EcoInvent.Models.pdb
+C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\EcoInvent.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\EcoInvent.Models.AssemblyInfoInputs.cache
+C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\EcoInvent.Models.AssemblyInfo.cs
+C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\EcoInvent.Models.csproj.CoreCompileInputs.cache
+C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\EcoInvent.Models.dll
+C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\refint\EcoInvent.Models.dll
+C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\EcoInvent.Models.pdb
+C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.Models\obj\Debug\net10.0\ref\EcoInvent.Models.dll
