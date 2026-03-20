@@ -1,0 +1,454 @@
+[2026-03-05 14:20:05] ERROR: Startup failed.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: u.CreatedAt'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at EcoInvent.DAL.Repositories.UserRepository.GetByUsernameAsync(String username) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.DAL\Repositories\UserRepository.cs:line 14
+   at EcoInvent.BLL.Services.AuthService.EnsureAdminSeedAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.BLL\Services\AuthService.cs:line 19
+   at EcoInvent.UI.Program.Main() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\Program.cs:line 38
+[2026-03-05 14:20:32] ERROR: Startup failed.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: u.CreatedAt'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at EcoInvent.DAL.Repositories.UserRepository.GetByUsernameAsync(String username) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.DAL\Repositories\UserRepository.cs:line 14
+   at EcoInvent.BLL.Services.AuthService.EnsureAdminSeedAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.BLL\Services\AuthService.cs:line 19
+   at EcoInvent.UI.Program.Main() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\Program.cs:line 38
+[2026-03-05 14:21:36] ERROR: Startup failed.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: u.CreatedAt'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at EcoInvent.DAL.Repositories.UserRepository.GetByUsernameAsync(String username) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.DAL\Repositories\UserRepository.cs:line 14
+   at EcoInvent.BLL.Services.AuthService.EnsureAdminSeedAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.BLL\Services\AuthService.cs:line 19
+   at EcoInvent.UI.Program.Main() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\Program.cs:line 38
+[2026-03-05 14:21:38] ERROR: Startup failed.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: u.CreatedAt'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at EcoInvent.DAL.Repositories.UserRepository.GetByUsernameAsync(String username) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.DAL\Repositories\UserRepository.cs:line 14
+   at EcoInvent.BLL.Services.AuthService.EnsureAdminSeedAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.BLL\Services\AuthService.cs:line 19
+   at EcoInvent.UI.Program.Main() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\Program.cs:line 38
+[2026-03-05 14:25:24] INFO: Seeded default admin account.
+[2026-03-05 16:21:27] ERROR: Startup failed.
+System.InvalidOperationException: The data is NULL at ordinal 3. This method can't be called on NULL values. Check using IsDBNull before calling.
+   at Microsoft.Data.Sqlite.SqliteValueReader.GetString(Int32 ordinal)
+   at Microsoft.Data.Sqlite.SqliteDataReader.GetString(Int32 ordinal)
+   at lambda_method10(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at EcoInvent.BLL.Services.AuthService.EnsureAdminSeedAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.BLL\Services\AuthService.cs:line 22
+   at EcoInvent.UI.Program.Main() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\Program.cs:line 41
+[2026-03-05 16:38:31] ERROR: Startup failed.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Users.PasswordSalt'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcoInvent.DAL.Repositories.UserRepository.AddAsync(User user) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.DAL\Repositories\UserRepository.cs:line 19
+   at EcoInvent.UI.Program.SeedOrResetUsersAsync(IUserRepository userRepo) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\Program.cs:line 113
+   at EcoInvent.UI.Program.Main() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\Program.cs:line 45
+[2026-03-05 16:44:38] ERROR: Startup failed.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Users.PasswordSalt'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at EcoInvent.DAL.Repositories.UserRepository.AddAsync(User user) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.DAL\Repositories\UserRepository.cs:line 19
+   at EcoInvent.UI.Program.SeedOrResetUsersAsync(IUserRepository userRepo) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\Program.cs:line 118
+   at EcoInvent.UI.Program.Main() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\Program.cs:line 45
+[2026-03-06 02:05:20] ERROR: Startup failed.
+System.InvalidOperationException: Column cannot be added because it is frozen and placed after an unfrozen column.
+   at System.Windows.Forms.DataGridView.CorrectColumnFrozenState(DataGridViewColumn dataGridViewColumn, Int32 anticipatedColumnIndex)
+   at System.Windows.Forms.DataGridView.OnAddingColumn(DataGridViewColumn dataGridViewColumn)
+   at System.Windows.Forms.DataGridViewColumnCollection.Add(DataGridViewColumn dataGridViewColumn)
+   at System.Windows.Forms.DataGridView.CorrectColumnFrozenStates(DataGridViewColumn[] dataGridViewColumns)
+   at System.Windows.Forms.DataGridView.OnAddingColumns(DataGridViewColumn[] dataGridViewColumns)
+   at System.Windows.Forms.DataGridViewColumnCollection.AddRange(DataGridViewColumn[] dataGridViewColumns)
+   at EcoInvent.UI.InventoryForm.BuildGridColumns() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 445
+   at EcoInvent.UI.InventoryForm.ConfigureGrid() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 384
+   at EcoInvent.UI.InventoryForm..ctor(InventoryService svc, String role) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 61
+   at EcoInvent.UI.Program.Main() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\Program.cs:line 52
+[2026-03-06 02:12:50] ERROR: Startup failed.
+System.InvalidOperationException: Column cannot be added because it is frozen and placed after an unfrozen column.
+   at System.Windows.Forms.DataGridView.CorrectColumnFrozenState(DataGridViewColumn dataGridViewColumn, Int32 anticipatedColumnIndex)
+   at System.Windows.Forms.DataGridView.OnAddingColumn(DataGridViewColumn dataGridViewColumn)
+   at System.Windows.Forms.DataGridViewColumnCollection.Add(DataGridViewColumn dataGridViewColumn)
+   at EcoInvent.UI.InventoryForm.ResetAndBuildColumns() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 441
+   at EcoInvent.UI.InventoryForm.ConfigureGrid() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 372
+   at EcoInvent.UI.InventoryForm..ctor(InventoryService svc, String role) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 62
+   at EcoInvent.UI.Program.Main() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\Program.cs:line 52
+[2026-03-09 19:28:28] ERROR: UI Action Error
+System.InvalidOperationException: FirstDisplayedScrollingColumnIndex property cannot be set to a frozen column.
+   at System.Windows.Forms.DataGridView.set_FirstDisplayedScrollingColumnIndex(Int32 value)
+   at EcoInvent.UI.InventoryForm.FixGridColumns() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 1187
+   at EcoInvent.UI.InventoryForm.LoadItemsAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 1113
+   at EcoInvent.UI.InventoryForm.RefreshAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 1416
+   at EcoInvent.UI.InventoryForm.<InventoryForm_Load>b__69_0() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 124
+   at EcoInvent.UI.InventoryForm.SafeRunAsync(Func`1 action) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 1566
+[2026-03-09 19:28:42] ERROR: UI Action Error
+System.InvalidOperationException: FirstDisplayedScrollingColumnIndex property cannot be set to a frozen column.
+   at System.Windows.Forms.DataGridView.set_FirstDisplayedScrollingColumnIndex(Int32 value)
+   at EcoInvent.UI.InventoryForm.FixGridColumns() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 1187
+   at EcoInvent.UI.InventoryForm.LoadItemsAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 1113
+   at EcoInvent.UI.InventoryForm.RefreshAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 1416
+   at EcoInvent.UI.InventoryForm.<InventoryForm_Load>b__69_0() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 124
+   at EcoInvent.UI.InventoryForm.SafeRunAsync(Func`1 action) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 1566
+[2026-03-19 11:08:12] [INFO] User logged in: admin
+[2026-03-19 11:08:12] [ERROR] Source: InventoryService.GetItemsAsync | Message: SQLite Error 1: 'no such column: i.CreatedAt'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EcoInvent.DAL.Repositories.ItemRepository.GetAllAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.DAL\Repositories\ItemRepository.cs:line 18
+   at EcoInvent.BLL.Services.InventoryService.GetItemsAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.BLL\Services\InventoryService.cs:line 21
+[2026-03-19 14:21:38] [INFO] User logged in: admin
+[2026-03-19 14:22:00] [INFO] User logged in: admin
+[2026-03-19 14:22:17] [INFO] Item added: Banana Ice
+[2026-03-19 14:22:22] [INFO] Item deleted: Banana Ice
+[2026-03-19 23:28:17] [INFO] User logged in: admin
+[2026-03-19 23:31:54] [INFO] User logged in: admin
+[2026-03-19 23:35:43] [INFO] User logged in: admin
+[2026-03-19 23:36:32] [INFO] Item added: Burger
+[2026-03-19 23:36:44] [INFO] Item updated: Burger
+[2026-03-19 23:39:16] [INFO] User logged in: admin
+[2026-03-19 23:39:16] [ERROR] Startup failed. | Height must be greater than 0px.
+   at System.Windows.Forms.DataVisualization.Charting.ChartPicture.InspectChartDimensions(Int32 width, Int32 height)
+   at System.Windows.Forms.DataVisualization.Charting.ChartPicture.set_Height(Int32 value)
+   at System.Windows.Forms.DataVisualization.Charting.Chart.OnResize(EventArgs e)
+   at System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height)
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSizeDockedControl(IArrangedElement element, Rectangle newElementBounds, Boolean measureOnly, Size& preferredSize, Rectangle& remainingBounds)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutDockedControls(IArrangedElement container, Boolean measureOnly)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSize(IArrangedElement container, Boolean measureOnly, Size& preferredSize)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.OnResize(EventArgs e)
+   at System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height)
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSizeDockedControl(IArrangedElement element, Rectangle newElementBounds, Boolean measureOnly, Size& preferredSize, Rectangle& remainingBounds)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutDockedControls(IArrangedElement container, Boolean measureOnly)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSize(IArrangedElement container, Boolean measureOnly, Size& preferredSize)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   at EcoInvent.UI.InventoryForm.InitializeViews() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 163
+   at EcoInvent.UI.InventoryForm.SetupMainLayout() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 132
+   at EcoInvent.UI.InventoryForm..ctor(InventoryService svc, String role) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 63
+   at EcoInvent.UI.Program.Main() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\Program.cs:line 53
+[2026-03-19 23:39:39] [INFO] User logged in: viewer
+[2026-03-19 23:39:39] [ERROR] Startup failed. | Height must be greater than 0px.
+   at System.Windows.Forms.DataVisualization.Charting.ChartPicture.InspectChartDimensions(Int32 width, Int32 height)
+   at System.Windows.Forms.DataVisualization.Charting.ChartPicture.set_Height(Int32 value)
+   at System.Windows.Forms.DataVisualization.Charting.Chart.OnResize(EventArgs e)
+   at System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height)
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSizeDockedControl(IArrangedElement element, Rectangle newElementBounds, Boolean measureOnly, Size& preferredSize, Rectangle& remainingBounds)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutDockedControls(IArrangedElement container, Boolean measureOnly)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSize(IArrangedElement container, Boolean measureOnly, Size& preferredSize)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.OnResize(EventArgs e)
+   at System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height)
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSizeDockedControl(IArrangedElement element, Rectangle newElementBounds, Boolean measureOnly, Size& preferredSize, Rectangle& remainingBounds)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutDockedControls(IArrangedElement container, Boolean measureOnly)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSize(IArrangedElement container, Boolean measureOnly, Size& preferredSize)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   at EcoInvent.UI.InventoryForm.InitializeViews() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 163
+   at EcoInvent.UI.InventoryForm.SetupMainLayout() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 132
+   at EcoInvent.UI.InventoryForm..ctor(InventoryService svc, String role) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 63
+   at EcoInvent.UI.Program.Main() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\Program.cs:line 53
+[2026-03-19 23:40:14] [INFO] User logged in: admin
+[2026-03-19 23:40:14] [ERROR] Startup failed. | Height must be greater than 0px.
+   at System.Windows.Forms.DataVisualization.Charting.ChartPicture.InspectChartDimensions(Int32 width, Int32 height)
+   at System.Windows.Forms.DataVisualization.Charting.ChartPicture.set_Height(Int32 value)
+   at System.Windows.Forms.DataVisualization.Charting.Chart.OnResize(EventArgs e)
+   at System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height)
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSizeDockedControl(IArrangedElement element, Rectangle newElementBounds, Boolean measureOnly, Size& preferredSize, Rectangle& remainingBounds)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutDockedControls(IArrangedElement container, Boolean measureOnly)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSize(IArrangedElement container, Boolean measureOnly, Size& preferredSize)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.OnResize(EventArgs e)
+   at System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height)
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSizeDockedControl(IArrangedElement element, Rectangle newElementBounds, Boolean measureOnly, Size& preferredSize, Rectangle& remainingBounds)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutDockedControls(IArrangedElement container, Boolean measureOnly)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSize(IArrangedElement container, Boolean measureOnly, Size& preferredSize)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   at EcoInvent.UI.InventoryForm.InitializeViews() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 163
+   at EcoInvent.UI.InventoryForm.SetupMainLayout() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 132
+   at EcoInvent.UI.InventoryForm..ctor(InventoryService svc, String role) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 63
+   at EcoInvent.UI.Program.Main() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\Program.cs:line 53
+[2026-03-19 23:56:13] [INFO] User logged in: admin
+[2026-03-19 23:56:13] [ERROR] Startup failed. | Height must be greater than 0px.
+   at System.Windows.Forms.DataVisualization.Charting.ChartPicture.InspectChartDimensions(Int32 width, Int32 height)
+   at System.Windows.Forms.DataVisualization.Charting.ChartPicture.set_Height(Int32 value)
+   at System.Windows.Forms.DataVisualization.Charting.Chart.OnResize(EventArgs e)
+   at System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height)
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSizeDockedControl(IArrangedElement element, Rectangle newElementBounds, Boolean measureOnly, Size& preferredSize, Rectangle& remainingBounds)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutDockedControls(IArrangedElement container, Boolean measureOnly)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSize(IArrangedElement container, Boolean measureOnly, Size& preferredSize)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.OnResize(EventArgs e)
+   at System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height)
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSizeDockedControl(IArrangedElement element, Rectangle newElementBounds, Boolean measureOnly, Size& preferredSize, Rectangle& remainingBounds)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutDockedControls(IArrangedElement container, Boolean measureOnly)
+   at System.Windows.Forms.Layout.DefaultLayout.TryCalculatePreferredSize(IArrangedElement container, Boolean measureOnly, Size& preferredSize)
+   at System.Windows.Forms.Layout.DefaultLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   at EcoInvent.UI.InventoryForm.InitializeViews() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 130
+   at EcoInvent.UI.InventoryForm.SetupProfessionalLayout() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 103
+   at EcoInvent.UI.InventoryForm..ctor(InventoryService svc, String role) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 49
+   at EcoInvent.UI.Program.Main() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\Program.cs:line 53
+[2026-03-19 23:57:53] [INFO] User logged in: admin
+[2026-03-19 23:58:31] [ERROR] UI Thread Exception | Row associated with the currency manager's position cannot be made invisible.
+   at System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   at System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   at EcoInvent.UI.InventoryForm.SearchLedger() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 299
+   at EcoInvent.UI.InventoryForm.<InitializeViews>b__34_0(Object s, EventArgs e) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 146
+   at System.Windows.Forms.TextBoxBase.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.TextBoxBase.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, UInt32 msg, WPARAM wparam, LPARAM lparam)
+[2026-03-19 23:58:31] [ERROR] UI Thread Exception | Row associated with the currency manager's position cannot be made invisible.
+   at System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   at System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   at EcoInvent.UI.InventoryForm.SearchLedger() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 299
+   at EcoInvent.UI.InventoryForm.<InitializeViews>b__34_0(Object s, EventArgs e) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 146
+   at System.Windows.Forms.TextBoxBase.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.TextBoxBase.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, UInt32 msg, WPARAM wparam, LPARAM lparam)
+[2026-03-19 23:58:31] [ERROR] UI Thread Exception | Row associated with the currency manager's position cannot be made invisible.
+   at System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   at System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   at EcoInvent.UI.InventoryForm.SearchLedger() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 299
+   at EcoInvent.UI.InventoryForm.<InitializeViews>b__34_0(Object s, EventArgs e) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 146
+   at System.Windows.Forms.TextBoxBase.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.TextBoxBase.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, UInt32 msg, WPARAM wparam, LPARAM lparam)
+[2026-03-19 23:59:51] [INFO] User logged in: viewer
+[2026-03-20 00:03:36] [INFO] User logged in: admin
+[2026-03-20 00:04:01] [INFO] User logged in: viewer
+[2026-03-20 00:09:44] [INFO] User logged in: admin
+[2026-03-20 00:13:45] [INFO] User logged in: admin
+[2026-03-20 00:14:20] [INFO] Item deleted: Burger
+[2026-03-20 00:14:22] [ERROR] Source: InventoryService.UpdateItemAsync | Message: Item not found.
+   at EcoInvent.BLL.Services.InventoryService.UpdateItemAsync(Int32 id, String itemName, String categoryName, Int32 stock, Int32 reorderLevel) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.BLL\Services\InventoryService.cs:line 78
+[2026-03-20 00:14:22] [ERROR] UI Thread Exception | Item not found.
+   at EcoInvent.BLL.Services.InventoryService.UpdateItemAsync(Int32 id, String itemName, String categoryName, Int32 stock, Int32 reorderLevel) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.BLL\Services\InventoryService.cs:line 78
+   at EcoInvent.UI.InventoryForm.<BuildForm>b__50_1(Object s, EventArgs e) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 328
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_0(Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+[2026-03-20 00:17:10] [INFO] User logged in: admin
+[2026-03-20 00:17:34] [INFO] User logged in: viewer
+[2026-03-20 00:17:58] [INFO] User logged in: admin
+[2026-03-20 00:21:13] [INFO] Item added: Compost Bins
+[2026-03-20 00:21:37] [INFO] Item updated: Compost Bins
+[2026-03-20 00:21:38] [INFO] Item updated: Compost Bins
+[2026-03-20 00:21:45] [INFO] Item added: Compost Bins
+[2026-03-20 00:21:48] [INFO] Item deleted: Compost Bins
+[2026-03-20 00:23:22] [INFO] User logged in: admin
+[2026-03-20 00:24:10] [INFO] Item added: Refillable Water Bottles
+[2026-03-20 00:24:44] [INFO] Item added: Recycling Bins
+[2026-03-20 00:25:17] [INFO] Item added: Indoor Plants
+[2026-03-20 00:25:49] [INFO] Item added: Bamboo Utensils Set
+[2026-03-20 00:26:27] [ERROR] UI Thread Exception | Row associated with the currency manager's position cannot be made invisible.
+   at System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   at System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   at EcoInvent.UI.InventoryForm.SearchLedger() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 438
+   at EcoInvent.UI.InventoryForm.<InitializeViews>b__46_0(Object s, EventArgs e) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 235
+   at System.Windows.Forms.TextBoxBase.WmReflectCommand(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, UInt32 msg, WPARAM wparam, LPARAM lparam)
+[2026-03-20 00:26:27] [ERROR] UI Thread Exception | Row associated with the currency manager's position cannot be made invisible.
+   at System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   at System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   at EcoInvent.UI.InventoryForm.SearchLedger() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 438
+   at EcoInvent.UI.InventoryForm.<InitializeViews>b__46_0(Object s, EventArgs e) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 235
+   at System.Windows.Forms.TextBoxBase.WmReflectCommand(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, UInt32 msg, WPARAM wparam, LPARAM lparam)
+[2026-03-20 00:26:27] [ERROR] UI Thread Exception | Row associated with the currency manager's position cannot be made invisible.
+   at System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   at System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   at EcoInvent.UI.InventoryForm.SearchLedger() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 438
+   at EcoInvent.UI.InventoryForm.<InitializeViews>b__46_0(Object s, EventArgs e) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 235
+   at System.Windows.Forms.TextBoxBase.WmReflectCommand(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, UInt32 msg, WPARAM wparam, LPARAM lparam)
+[2026-03-20 00:26:27] [ERROR] UI Thread Exception | Row associated with the currency manager's position cannot be made invisible.
+   at System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   at System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   at EcoInvent.UI.InventoryForm.SearchLedger() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 438
+   at EcoInvent.UI.InventoryForm.<InitializeViews>b__46_0(Object s, EventArgs e) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 235
+   at System.Windows.Forms.TextBoxBase.WmReflectCommand(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, UInt32 msg, WPARAM wparam, LPARAM lparam)
+[2026-03-20 00:26:28] [ERROR] UI Thread Exception | Row associated with the currency manager's position cannot be made invisible.
+   at System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   at System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   at EcoInvent.UI.InventoryForm.SearchLedger() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 438
+   at EcoInvent.UI.InventoryForm.<InitializeViews>b__46_0(Object s, EventArgs e) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 235
+   at System.Windows.Forms.TextBoxBase.WmReflectCommand(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, UInt32 msg, WPARAM wparam, LPARAM lparam)
+[2026-03-20 00:26:30] [ERROR] UI Thread Exception | Row associated with the currency manager's position cannot be made invisible.
+   at System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   at System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   at EcoInvent.UI.InventoryForm.SearchLedger() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 438
+   at EcoInvent.UI.InventoryForm.<InitializeViews>b__46_0(Object s, EventArgs e) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 235
+   at System.Windows.Forms.TextBoxBase.WmReflectCommand(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, UInt32 msg, WPARAM wparam, LPARAM lparam)
+[2026-03-20 00:26:30] [ERROR] UI Thread Exception | Row associated with the currency manager's position cannot be made invisible.
+   at System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   at System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   at EcoInvent.UI.InventoryForm.SearchLedger() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 438
+   at EcoInvent.UI.InventoryForm.<InitializeViews>b__46_0(Object s, EventArgs e) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 235
+   at System.Windows.Forms.TextBoxBase.WmReflectCommand(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, UInt32 msg, WPARAM wparam, LPARAM lparam)
+[2026-03-20 00:26:31] [ERROR] UI Thread Exception | Row associated with the currency manager's position cannot be made invisible.
+   at System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   at System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   at EcoInvent.UI.InventoryForm.SearchLedger() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 438
+   at EcoInvent.UI.InventoryForm.<InitializeViews>b__46_0(Object s, EventArgs e) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 235
+   at System.Windows.Forms.TextBoxBase.WmReflectCommand(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, UInt32 msg, WPARAM wparam, LPARAM lparam)
+[2026-03-20 00:26:31] [ERROR] UI Thread Exception | Row associated with the currency manager's position cannot be made invisible.
+   at System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   at System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   at EcoInvent.UI.InventoryForm.SearchLedger() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 438
+   at EcoInvent.UI.InventoryForm.<InitializeViews>b__46_0(Object s, EventArgs e) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 235
+   at System.Windows.Forms.TextBoxBase.WmReflectCommand(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, UInt32 msg, WPARAM wparam, LPARAM lparam)
+[2026-03-20 00:26:31] [ERROR] UI Thread Exception | Row associated with the currency manager's position cannot be made invisible.
+   at System.Windows.Forms.DataGridView.OnDataGridViewElementStateChanging(DataGridViewElement element, Int32 index, DataGridViewElementStates elementState)
+   at System.Windows.Forms.DataGridViewBand.set_Visible(Boolean value)
+   at EcoInvent.UI.InventoryForm.SearchLedger() in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 438
+   at EcoInvent.UI.InventoryForm.<InitializeViews>b__46_0(Object s, EventArgs e) in C:\Users\Justine Berdejo\OneDrive\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 235
+   at System.Windows.Forms.TextBoxBase.WmReflectCommand(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, UInt32 msg, WPARAM wparam, LPARAM lparam)
+[2026-03-20 00:29:32] [INFO] User logged in: admin
+[2026-03-20 00:53:15] [INFO] User logged in: admin
+[2026-03-20 00:53:52] [INFO] User logged in: viewer

@@ -1,0 +1,76 @@
+2026-03-05 00:40:14Z [ERROR] SQLite Error 1: 'no such table: Items'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EcoInvent.DAL.Repositories.ItemRepository.GetAllAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.DAL\Repositories\ItemRepository.cs:line 12
+   at EcoInvent.BLL.InventoryService.GetItemsAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.BLL\Services\InventoryService.cs:line 10
+   at EcoInvent.UI.InventoryForm.LoadItemsAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 115
+   at EcoInvent.UI.InventoryForm.InventoryForm_Load(Object sender, EventArgs e) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 32
+
+2026-03-05 00:59:14Z [ERROR] SQLite Error 1: 'no such table: Items'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EcoInvent.DAL.Repositories.ItemRepository.GetAllAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.DAL\Repositories\ItemRepository.cs:line 12
+   at EcoInvent.BLL.InventoryService.GetItemsAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.BLL\Services\InventoryService.cs:line 10
+   at EcoInvent.UI.InventoryForm.LoadItemsAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 274
+   at EcoInvent.UI.InventoryForm.InventoryForm_Load(Object sender, EventArgs e) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 44
+
+2026-03-05 01:03:27Z [ERROR] SQLite Error 1: 'no such table: Items'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EcoInvent.DAL.Repositories.ItemRepository.GetAllAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.DAL\Repositories\ItemRepository.cs:line 12
+   at EcoInvent.BLL.InventoryService.GetItemsAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.BLL\Services\InventoryService.cs:line 10
+   at EcoInvent.UI.InventoryForm.LoadItemsAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 274
+   at EcoInvent.UI.InventoryForm.InventoryForm_Load(Object sender, EventArgs e) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 44
+
+2026-03-05 01:08:34Z [ERROR] SQLite Error 1: 'no such table: Items'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EcoInvent.DAL.Repositories.ItemRepository.GetAllAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.DAL\Repositories\ItemRepository.cs:line 12
+   at EcoInvent.BLL.InventoryService.GetItemsAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.BLL\Services\InventoryService.cs:line 10
+   at EcoInvent.UI.InventoryForm.LoadItemsAsync() in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 274
+   at EcoInvent.UI.InventoryForm.InventoryForm_Load(Object sender, EventArgs e) in C:\Users\Msi\source\repos\EcoInventApp\EcoInvent.UI\InventoryForm.cs:line 44
+

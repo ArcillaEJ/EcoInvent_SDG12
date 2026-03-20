@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="EcoInvent.BLL/EcoInvent.BLL.csproj" />
+  <Project Path="EcoInvent.DAL/EcoInvent.DAL.csproj" />
+  <Project Path="EcoInvent.Models/EcoInvent.Models.csproj" />
+  <Project Path="EcoInvent.UI/EcoInvent.UI.csproj" />
+  <Project Path="EcoInventApp/EcoInventApp.csproj" />
+</Solution>

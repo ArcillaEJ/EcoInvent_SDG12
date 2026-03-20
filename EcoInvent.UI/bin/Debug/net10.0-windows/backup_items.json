@@ -1,0 +1,32 @@
+[
+  {
+    "ItemId": 7,
+    "ItemName": "Black Teo",
+    "Category": "Vape",
+    "Unit": "pcs",
+    "ExpiryDate": null,
+    "CurrentStock": 99,
+    "ReorderLevel": 50,
+    "Transactions": []
+  },
+  {
+    "ItemId": 8,
+    "ItemName": "Black Elite",
+    "Category": "Vape",
+    "Unit": "pcs",
+    "ExpiryDate": null,
+    "CurrentStock": 100,
+    "ReorderLevel": 50,
+    "Transactions": []
+  },
+  {
+    "ItemId": 9,
+    "ItemName": "Tissue",
+    "Category": "Ice Cream",
+    "Unit": "pcs",
+    "ExpiryDate": null,
+    "CurrentStock": 20,
+    "ReorderLevel": 10,
+    "Transactions": []
+  }
+]
