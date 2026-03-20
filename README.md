@@ -86,6 +86,12 @@ EcoInventApp.sln
 
 ```
 EcoInvent_SDG12
+├── DOCUMENTATION/
+│   └── Database_Schema_ERD.png
+│   ├── Flowchart_CoreAlgorithm.png
+│   ├── Flowchart_CoreAlgorithm1.png
+│   ├── Flowchart_CoreAlgorithm2.png
+│   ├── SDAD_EcoInvent.pdf
 ├── EcoInvent.BLL/
 ├── EcoInvent.DAL/
 ├── EcoInvent.Models/
@@ -93,12 +99,6 @@ EcoInvent_SDG12
 ├── EcoInventApp/
 ├── INPUT_DATA/
 │   └── inventory.db
-├── DOCUMENTATION/
-│   └── Database_Schema_ERD.png
-│   ├── Flowchart_CoreAlgorithm.png
-│   ├── Flowchart_CoreAlgorithm1.png
-│   ├── Flowchart_CoreAlgorithm2.png
-│   ├── SDAD_EcoInvent.pdf
 ├── EcoInventApp.sln
 ├── README.md
 ```
