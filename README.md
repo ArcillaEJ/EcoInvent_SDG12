@@ -6,91 +6,38 @@
 
 ## 📌 Project Overview
 
-EcoInvent is a desktop-based C# Windows Forms application designed to help organizations manage inventory efficiently while promoting sustainable resource usage. The system provides real-time monitoring, reporting, and analysis of inventory data to reduce waste and improve operational efficiency.
-
-This project follows an N-Tier Architecture and applies core software engineering principles such as Object-Oriented Programming, asynchronous processing, and secure data handling.
+EcoInvent is a desktop-based C# Windows Forms application designed to help organizations manage inventory efficiently while promoting sustainable resource usage. The system provides real-time monitoring, tracking, and reporting of inventory data to reduce waste and improve operational efficiency.
 
 ---
 
 ## 🎯 SDG Alignment
 
-This system supports **United Nations Sustainable Development Goal 12 (Responsible Consumption and Production)** by:
-
-* Monitoring resource usage and consumption
-* Reducing unnecessary waste through proper inventory tracking
-* Providing sustainability reports and insights for better decision-making
+This system supports **United Nations Sustainable Development Goal 12 (Responsible Consumption and Production)** by monitoring resource usage, minimizing waste, and providing sustainability insights for better decision-making.
 
 ---
 
 ## ⚙️ Features
 
-### 🔐 Authentication & Security
-
-* Secure login system using **hashed passwords (PBKDF2)**
-* Role-based access:
-
-  * **Administrator** – Full system control
-  * **Viewer** – Read-only access
-
----
-
-### 📦 Inventory Management
-
-* Add, update, delete, and view inventory items (CRUD)
-* Categorization of resources (e.g., Kitchen, Greenery, Eco Supplies)
-* Stock monitoring and status tracking (OK, Low Stock, etc.)
-
----
-
-### 📊 Dashboard & Reporting
-
-* System Insight Dashboard for quick overview
-* Graphical charts:
-
-  * Inventory distribution (Pie/Donut Chart)
-  * Resource lifecycle analysis (Bar Chart)
-* Sustainability Reporting module
-
----
-
-### 🔄 Data Management
-
-* JSON Backup and Restore functionality
-* Database integration using **Entity Framework Core**
-* SQLite database for lightweight storage
-
----
-
-### ⚡ Performance & Reliability
-
-* Async/Await implementation for smooth UI experience
-* Global exception handling
-* Logging system for tracking errors and events
+* Secure login system with hashed passwords
+* Role-based access (Administrator & Viewer)
+* Full CRUD operations for inventory management
+* Categorization and stock monitoring
+* Dashboard with graphical charts
+* Sustainability reporting
+* JSON backup and restore
+* Async/Await for smooth performance
+* Logging and exception handling
 
 ---
 
 ## 🏗️ System Architecture
 
-EcoInvent follows a **3-Layer N-Tier Architecture**:
+The system follows an **N-Tier Architecture**:
 
-* **Presentation Layer (UI)**
-
-  * Windows Forms interface
-  * Handles user interaction
-
-* **Business Logic Layer (BLL)**
-
-  * Processes system rules
-  * Handles validation and calculations
-
-* **Data Access Layer (DAL)**
-
-  * Manages database operations
-  * Uses repositories and EF Core
-
-* **Models Layer**
-
-  * Represents system entities (User, Item, Category)
+* Presentation Layer (UI)
+* Business Logic Layer (BLL)
+* Data Access Layer (DAL)
+* Models Layer
 
 ---
 
@@ -100,7 +47,6 @@ EcoInvent follows a **3-Layer N-Tier Architecture**:
 * Entity Framework Core
 * SQLite Database
 * JSON Serialization
-* OOP Principles (Encapsulation, Interfaces, Polymorphism)
 
 ---
 
@@ -112,19 +58,19 @@ EcoInvent follows a **3-Layer N-Tier Architecture**:
 git clone https://github.com/ArcillaEJ/EcoInvent.git
 ```
 
-2. Open the solution file in Visual Studio:
+2. Open:
 
 ```
 EcoInvent.sln
 ```
 
-3. Run the application.
+3. Run the application in Visual Studio.
 
 ---
 
 ## 👥 Contributors
 
-* **Arcilla, EJ** – UI Design, Business Logic, System Integration
+* Arcilla, EJ
 * (Add your group members here)
 
 ---
@@ -139,41 +85,54 @@ EcoInvent
 │   ├── EcoInvent.BLL/
 │   ├── EcoInvent.DAL/
 │   ├── EcoInvent.Models/
-│   └── appsettings.json
 ├── INPUT_DATA/
 │   ├── initial_seed.json
 │   └── inventory.db
-└── DOCUMENTATION/
-    ├── SDAD_EcoInvent.pdf
-    ├── Flowchart_CoreAlgorithm.png
-    └── Database_Schema_ERD.png
+├── DOCUMENTATION/
+│   ├── SDAD_EcoInvent.pdf
+│   ├── Flowchart_CoreAlgorithm.png
+│   └── Database_Schema_ERD.png
+└── assets/
+    ├── login.png
+    ├── dashboard.png
+    ├── inventory.png
+    ├── reports.png
+    ├── viewer.png
+    └── search.png
 ```
 
 ---
 
-## 📸 Screenshots
+## 📸 System Preview
 
-(Add your application screenshots here)
+### 🔐 Login Page
 
----
+![Login](assets/login.png)
 
-## 📌 Key Highlights
+### 🧭 Admin Dashboard
 
-* Implements full **CRUD operations**
-* Uses **secure password hashing**
-* Follows **N-Tier Architecture**
-* Supports **data visualization and reporting**
-* Includes **JSON backup and restore**
-* Designed for **sustainability and resource efficiency**
+![Dashboard](assets/dashboard.png)
+
+### 📦 Inventory Ledger
+
+![Inventory](assets/inventory.png)
+
+### 🌱 Sustainability Reports
+
+![Reports](assets/reports.png)
+
+### 👤 Viewer Dashboard
+
+![Viewer](assets/viewer.png)
+
+### 🔍 Search & Resource Tracking
+
+![Search](assets/search.png)
 
 ---
 
 ## 📌 Conclusion
 
-EcoInvent demonstrates how software engineering principles can be applied to real-world sustainability challenges. By combining efficient inventory management with data-driven insights, the system promotes responsible consumption and supports sustainable practices aligned with global development goals.
+EcoInvent demonstrates how software engineering principles can be applied to real-world sustainability challenges. The system promotes responsible consumption by combining efficient inventory management with data-driven insights.
 
 ---
-
-## 📜 License
-
-This project is for academic purposes only.
